@@ -94,6 +94,21 @@
             border-radius: 4px;
             resize: vertical;
         }
+        <!--UC3-->
+        .profile-radio-content {
+            display: flex;
+            flex-direction: row;
+        }
+        .profile-radio-content > label {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .profile {
+            width: 40px;
+            border-radius: 50%;
+            margin-left: 12px;
+        }
 
 
 
@@ -128,7 +143,34 @@
         </div>
         </form>
     </div>
-
     </div>
+
+    <!--UC3 Specify profile pic to the Employee payroll app-->
+    <div class="row-content">
+        <label class="label text" for="profile">Profile image</label>
+        <div class="profile-radio-content">
+            <label>
+                <input type="radio" id="profile1" name="profile"
+                value="../assets/profile-image/Ellipse -3.png" required>
+                <img class="profile" id="image1" src="../assets/profile-image/Ellipse -3.png" alt="">
+            </label>
+            <label>
+                <input type="radio" id="profile2" name="profile"
+                value="../assets/profile-image/Ellipse 1.png" required>
+                <img class="profile" id="image2" src="../assets/profile-image/Ellipse 1.png" alt=""> 
+            </label>
+            <label>
+                <input type="radio" id="profile3" name="profile"
+                value="../assets/profile-image/Ellipse -8.png" required>
+                <img class="profile" id="image3" src="../assets/profile-image/Ellipse -7.png" alt="">
+            </label>
+            <label>
+                <input type="radio" id="profile4" name="profile"
+                value="../assets/profile-image/Ellipse -7.png" required>
+                <img class="profile" id="image4" src="../assets/profile-image/Ellipse -7.png" alt="">
+            </label>
+        </div>
+    </div>
+
 </body>
 </html>
